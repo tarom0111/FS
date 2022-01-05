@@ -117,7 +117,7 @@ def masuk():
 	except (KeyError,IOError):
 		os.system('clear')
 		logo()
-		print("\033[0;95m SILAHKAN LOGIN TOKEN NYA '\033[0;untuk Akses Tool ini\033[0;95m' UNTUK AMBIL TOKEN PAKAI APK BROWSER KIWI DAN PASANG EXTENSION GET COOKIE")
+		print("\033[0;95mby FACESPAMMER '\033[0;untuk Akses Tool ini\033[0;95m' UNTUK AMBIL TOKEN PAKAI APK BROWSER KIWI DAN PASANG EXTENSION GET COOKIE")
 		token = raw_input(" MASUKAN TOKEN NYA : ")
 		if token == "FACE SPAMMER":
 			os.system("xdg-open https://free.facebook.com/100008065235213/posts/3002983643313781/?app=fbl")
