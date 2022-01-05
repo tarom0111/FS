@@ -56,14 +56,14 @@ def logo():
 	print("""     
 \033[0;93m  ••××××××××××××××××××××××••
 \033[1;95m   FACE SPAMMER TOOLS PREMIUM
-\033[1;95m   hanya Member FACE SPAMMER yang Boleh Akses
+\033[1;95m   Hanya Member FACE SPAMMER yang boleh akses
 \033[1;90m   TOOLS ini hanya untuk mencari Akun FACEBOOK  
-\033[1;96m	 yang sudah tida terpakai .   
-\033[1;96m 	 SILAH KAN GUNAKAN DENGAN BIJAK
-\033[1;96m FACE \033[1;95m SPAMEER \033[1;93m TOOLS \033[1;97m PREMIUM
+\033[1;96m	 yang sudah tidak terpakai .   
+\033[1;96m 	 SILAHKAN GUNAKAN DENGAN BIJAK
+\033[1;96m FACE \033[1;95m SPAMMER \033[1;93m TOOLS \033[1;97m PREMIUM
 \033[0;93m  •••••••••••••••••••••••••••••••••••••••••••••••••
 \033[1;92m       By\033[0;96m ---- \033[1;93m FACE \033[0;96m ---- \033[095m SPAMMER
-\033[0;96m USAHA TIDAK AKAN MENGHIANATI HASIL]""""")
+\033[0;96m USAHA TIDAK AKAN MENGHIANATI HASIL""""")
 id = []
 cp = []
 ok = []
